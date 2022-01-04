@@ -1,0 +1,254 @@
+/*!
+ * Item: Flexi
+ * Description: Personal Portfolio HTML5 Template
+ * Author/Developer: Exill
+ * Author/Developer URL: https://themeforest.net/user/exill
+ * Version: v1.0.1
+ * License: Themeforest Standard Licenses: http://themeforest.net/licenses
+ */
+.table-custom,
+.table-custom > td,
+.table-custom > th {
+    background-color: #99e6f2
+}
+
+.table-hover .table-custom:hover {
+    background-color: #83e1ef
+}
+
+.table-hover .table-custom:hover > td,
+.table-hover .table-custom:hover > th {
+    background-color: #83e1ef
+}
+
+.btn-custom {
+    color: #17a2b8;
+    background-color: #17a2b8;
+    border-color: #17a2b8
+}
+
+.btn-custom:hover {
+    color: #17a2b8;
+    background-color: #138698;
+    border-color: #117a8b
+}
+
+.btn-custom.focus,
+.btn-custom:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+}
+
+.btn-custom.disabled,
+.btn-custom:disabled {
+    color: #17a2b8;
+    background-color: #17a2b8;
+    border-color: #17a2b8
+}
+
+.btn-custom:not(:disabled):not(.disabled).active,
+.btn-custom:not(:disabled):not(.disabled):active,
+.show > .btn-custom.dropdown-toggle {
+    color: #17a2b8;
+    background-color: #117a8b;
+    border-color: #107282
+}
+
+.btn-custom:not(:disabled):not(.disabled).active:focus,
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.show > .btn-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+}
+
+.btn-outline-custom {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8
+}
+
+.btn-outline-custom:hover {
+    color: #17a2b8;
+    background-color: #17a2b8;
+    border-color: #17a2b8
+}
+
+.btn-outline-custom.focus,
+.btn-outline-custom:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+}
+
+.btn-outline-custom.disabled,
+.btn-outline-custom:disabled {
+    color: #17a2b8;
+    background-color: transparent
+}
+
+.btn-outline-custom:not(:disabled):not(.disabled).active,
+.btn-outline-custom:not(:disabled):not(.disabled):active,
+.show > .btn-outline-custom.dropdown-toggle {
+    color: #17a2b8;
+    background-color: #17a2b8;
+    border-color: #17a2b8
+}
+
+.btn-outline-custom:not(:disabled):not(.disabled).active:focus,
+.btn-outline-custom:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+}
+
+.badge-custom {
+    color: #17a2b8;
+    background-color: #17a2b8
+}
+
+.badge-custom[href]:focus,
+.badge-custom[href]:hover {
+    color: #17a2b8;
+    text-decoration: none;
+    background-color: #117a8b
+}
+
+.alert-custom {
+    color: #0a4650;
+    background-color: #acebf5;
+    border-color: #99e6f2
+}
+
+.alert-custom hr {
+    border-top-color: #83e1ef
+}
+
+.alert-custom .alert-link {
+    color: #041e22
+}
+
+.list-group-item-custom {
+    color: #0a4650;
+    background-color: #99e6f2
+}
+
+.list-group-item-custom.list-group-item-action:focus,
+.list-group-item-custom.list-group-item-action:hover {
+    color: #0a4650;
+    background-color: #83e1ef
+}
+
+.list-group-item-custom.list-group-item-action.active {
+    color: #17a2b8;
+    background-color: #0a4650;
+    border-color: #0a4650
+}
+
+.bg-custom {
+    background-color: #17a2b8 !important
+}
+
+a.bg-custom:focus,
+a.bg-custom:hover,
+button.bg-custom:focus,
+button.bg-custom:hover {
+    background-color: #117a8b !important
+}
+
+.border-custom {
+    border-color: #17a2b8 !important
+}
+
+.text-custom {
+    color: #17a2b8 !important
+}
+
+a.text-custom:focus,
+a.text-custom:hover {
+    color: #117a8b !important
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #17a2b8
+}
+
+::selection {
+    color: #fff;
+    background-color: #17a2b8
+}
+
+a {
+    color: #17a2b8
+}
+
+a:hover {
+    color: #0f6674
+}
+
+.btn.button-scheme {
+    background-color: #17a2b8 !important;
+    border: 1px solid #17a2b8 !important
+}
+
+.btn.button-scheme:focus {
+    box-shadow: none !important;
+    border-color: #0f6674 !important;
+    background-color: #0f6674 !important
+}
+
+.btn.button-outline {
+    background-color: transparent !important;
+    border: 1px solid #17a2b8 !important;
+    color: #222 !important
+}
+
+.btn.button-outline:focus {
+    box-shadow: none !important;
+    border-color: #0f6674 !important;
+    background-color: rgba(34, 34, 34, .05) !important
+}
+
+.navbar.scrolled.navbar-dark .navbar-nav .active > .nav-link,
+.navbar.scrolled.navbar-dark .navbar-nav .nav-link.active,
+.navbar.scrolled.navbar-dark .navbar-nav .nav-link.show,
+.navbar.scrolled.navbar-dark .navbar-nav .show > .nav-link {
+    color: #17a2b8
+}
+
+.navbar.scrolled .hamburger-inner,
+.navbar.scrolled .hamburger-inner::after,
+.navbar.scrolled .hamburger-inner::before {
+    background-color: #17a2b8
+}
+
+.services-area .single-service .icon {
+    color: #17a2b8
+}
+
+.portfolio-area .filter-control li.tab-active,
+.portfolio-area .filter-control li:hover {
+    color: #36cee6
+}
+
+.portfolio-area .filter-control li.tab-active:before,
+.portfolio-area .filter-control li:hover:before {
+    background-color: #36cee6
+}
+
+.testimonials-area .single-review .quote-icon {
+    color: #17a2b8
+}
+
+.blog-area .card .card-body .post-summary .author-name {
+    color: #17a2b8
+}
+
+.blog-area .card .card-body .post-summary .author-name:focus,
+.blog-area .card .card-body .post-summary .author-name:hover {
+    color: #0f6674
+}
+
+.contact-area .contact-form .form-group .form-control:focus {
+    border-bottom: 1px solid #80bdff
+}
+
+.contact-area .contact-info .media .info-icon .icon {
+    color: #17a2b8
+}
